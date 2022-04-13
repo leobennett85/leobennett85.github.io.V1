@@ -1,2 +1,17 @@
 # leobennett85.github.io
- Main Page
+
+## Abstract for Taxi Stats Accumulator
+
+---
+
+    ```
+
+{
+"firstName": "John",
+"lastName": "Smith",
+"age": 25
+}
+
+```
+
+```
