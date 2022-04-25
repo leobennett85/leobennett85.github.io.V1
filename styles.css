@@ -13,13 +13,14 @@ body {
 div {
     padding: 0;
     margin: 0;
-    outline: 1px solid black;
-    outline-offset: -1px;
+    /** outline: 1px solid black;
+    outline-offset: -1px; **/
 }
 
 .wrapper {
     display: flex;
     flex-direction: column;
+    flex-wrap: no-wrap;
     width: 100%;
     height: 100%;
 }
@@ -31,11 +32,13 @@ div {
 .header {
     width: 100%;
     height: 10rem;
+    background-color: white;
 }
 
 .navigation {
     width: 100%;
     height: 2rem;
+    background-color: dodgerblue;
 }
 
 .main {
