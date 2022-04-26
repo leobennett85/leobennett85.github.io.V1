@@ -39,7 +39,10 @@ div {
 .navigation {
     width: 100%;
     height: 2rem;
-    background-color: dodgerblue;
+    outline-color: #66452A;
+    outline-offset: -2px;
+    outline-style: groove;
+    background-image: linear-gradient(to right, #9E8241, #CCBA7A, #91691F);
 }
 
 .main {
@@ -57,6 +60,6 @@ div {
 }
 
 .footer {
-    background-image: linear-gradient(to bottom right, dodgerblue, white);
+    background-color: #9E8241;
     width: 100%;
 }
