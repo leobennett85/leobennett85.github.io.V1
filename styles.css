@@ -39,9 +39,6 @@ div {
 .navigation {
     width: 100%;
     height: 2rem;
-    outline-color: #66452A;
-    outline-offset: -2px;
-    outline-style: groove;
     background-image: linear-gradient(to right, #9E8241, #CCBA7A, #91691F);
 }
 
@@ -60,8 +57,6 @@ div {
 
 .content {
     background-color: #665F3D;
-    outline-offset: -1px;
-    outline-style: groove;
     width: 70%;
 }
 
@@ -74,8 +69,6 @@ div {
 
 .sidebar {
     background-color: #66452A;
-    outline-offset: -1px;
-    outline-style: groove;
     width: 30%;
 }
 
