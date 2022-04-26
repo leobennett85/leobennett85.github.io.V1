@@ -28,7 +28,7 @@ div {
 
 .header {
     width: 100%;
-    height: 10rem;
+    height: 13rem;
     background-image: url("images/header.jpg");
     background-blend-mode: color;
     background-repeat: no-repeat;
@@ -66,15 +66,13 @@ div {
 }
 
 .pContent {
-    padding: 5px;
+    padding: 3px;
     font-family: Verdana;
-    font-weight: bolder;
-    font-size: 1rem;
+    font-size: 0.7rem;
     color: #CCBA7A;
 }
 
 .sidebar {
-    padding: 5px;
     background-color: #66452A;
     outline-offset: -1px;
     outline-style: groove;
@@ -82,18 +80,24 @@ div {
 }
 
 .pSidebar {
-    padding: 5px;
+    padding: 3px;
     font-family: Verdana;
-    font-weight: bolder;
-    font-size: 1rem;
+    font-size: 0.70rem;
     color: #CCBA7A;
 
 }
 
 .footer {
-    outline-offset: -1px;
-    outline-style: groove;
     background-image: linear-gradient(to bottom, #9E8241, #26211F);
     height: 15rem;
     width: 100%;
+}
+
+.pFooter {
+    padding: 3px;
+    font-family: Verdana;
+    font-size: 1rem;
+    color: #CCBA7A;
+    text-align: center;
+    text-shadow: 3px 3px 5px #26211F;
 }
