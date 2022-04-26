@@ -45,21 +45,55 @@ div {
     background-image: linear-gradient(to right, #9E8241, #CCBA7A, #91691F);
 }
 
+.pNav {
+    padding: 5px;
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #66452A;
+}
+
 .main {
     display: flex;
     flex-direction: row;
 }
 
 .content {
-    background-color: white;
+    background-color: #665F3D;
+    outline-offset: -1px;
+    outline-style: groove;
     width: 70%;
 }
 
+.pContent {
+    padding: 5px;
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #CCBA7A;
+}
+
 .sidebar {
+    padding: 5px;
+    background-color: #66452A;
+    outline-offset: -1px;
+    outline-style: groove;
     width: 30%;
 }
 
+.pSidebar {
+    padding: 5px;
+    font-family: Verdana;
+    font-weight: bolder;
+    font-size: 1rem;
+    color: #CCBA7A;
+
+}
+
 .footer {
-    background-color: #9E8241;
+    outline-offset: -1px;
+    outline-style: groove;
+    background-image: linear-gradient(to bottom, #9E8241, #26211F);
+    height: 15rem;
     width: 100%;
 }
