@@ -3,6 +3,13 @@ p {
     margin: 0;
 }
 
+h1 {
+    padding: 3px;
+    font-family: Verdana;
+    font-size: 0.7rem;
+    color: #CCBA7A;
+}
+
 body {
     margin: 0;
     border: 0;
@@ -24,6 +31,7 @@ div {
 
 .top {
     width: 100%;
+    height: auto;
 }
 
 .header {
@@ -41,6 +49,7 @@ div {
     height: 2rem;
     background-image: linear-gradient(to right, #9E8241, #CCBA7A, #91691F);
 }
+
 
 .pNav {
     padding: 5px;

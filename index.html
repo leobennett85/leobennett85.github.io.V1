@@ -24,7 +24,44 @@
       <div class="main">
         <!-- Content -->
         <div class="content">
-          <p class="pContent">.content - Site content and calculator</p>
+          <p class="pContent">
+            <h1>Enter fare address</h1>
+            <input type="text" id="fareAddressInput" /> 
+
+            <h1>Enter destination address</h1>
+            <input type="text" id="destAddressInput" />
+
+            <h1>Select the type of Fare</h1>
+            <select id="fareTypeInput">
+              <option value="meter">Metered</option>
+              <option value="flat">Flat Rate</option>
+            </select>
+
+            <h1>Select the type of payment</h1>
+            <select id="farePaymentTypeInput">
+              <option value="cash">Cash</option>
+              <option value="charge">Charge</option>
+              <option value="debit">Debit/Credit</option>
+            </select>
+
+            <h1>Enter the fare total from the Meter</h1>
+            <input type="number" id="fareMeterInput" />
+
+            <h1>Enter total payment from customer</h1>
+            <input type="number" id="farePaymentInput" />
+
+            <h1>Enter tip total</h1>
+            <input type="number" id="fareTipInput" />
+            <br />
+            <input
+              type="button"
+              onclick="calcFare()"
+              value="Calculate and report totals from fare"
+            />
+          </p>
+
+
+
         </div>
 
         <!-- Sidebar -->
